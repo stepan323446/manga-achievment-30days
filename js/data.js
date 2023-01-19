@@ -31,9 +31,9 @@ function getDataSteve() {
     let stevedekart = {
         otherUsers: [
             {
-                nickname: "GHAUR1",
-                image: "images/users/Ghaur1.png",
-                url: "https://anilist.co/activity/474754966",
+                nickname: "F41NZ",
+                image: "images/users/F41NZ.jpg",
+                url: "https://anilist.co/user/F41NZ/",
                 status: Status.Complete
             }
         ],
