@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>100 Days Anime Challenge</title>
+
+    <link rel="icon" type="image/x-icon" href="icon.svg">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100;400;500&family=Secular+One&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css?ver=12.0">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <img src="images/100-Days-Anime-Challenge-5.gif" alt="">
+                </div>
+                <div class="nickname">
+                    <a href="https://anilist.co/user/SteveDekart/">SteveDekart</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="container">
+            <div class="challenge-image">
+                <a href="images/30-days-manga.png" target="_blank">
+                    <img src="images/30-days-manga.png" alt="">
+                </a>
+            </div>
+            <h1>
+                30 Days Manga Challenge
+            </h1>
+            <div class="information">
+                <div class="text">
+                    This list includes manga and light novel. Every day I will mark something from this category for each question
+                </div>
+                <div class="text">
+                    This is not actually Anilist site. If you want to go to Anilist, <a href="https://anilist.co/">click
+                        here</a>
+                </div>
+                <div class="date">
+                    <div class="date-block">
+                        Not started yet
+                    </div>
+                    <span> — </span>
+                    <div class="date-block">
+                        Not started yet
+                    </div>
+                </div>
+            </div>
+            <div class="sort">
+                <h2>Display</h2>
+                <div class="blocks">
+                    <div class="block">
+                        <div class="range-days sub-block">
+                            <h4>Range of days</h4>
+                            <div id="select-days" class="select-ordinary">
+                                <div class="select selected" min-day="1" max-day="100">All</div>
+                                <div class="select" min-day="1" max-day="20">1-20</div>
+                                <div class="select" min-day="21" max-day="40">21-40</div>
+                                <div class="select" min-day="41" max-day="60">41-60</div>
+                                <div class="select" min-day="61" max-day="80">61-80</div>
+                                <div class="select" min-day="81" max-day="100">81-100</div>
+                            </div>
+                        </div>
+                        <div class="type-sort">
+                            <h4>Type of sort</h4>
+                            <div id="select-type-sort" class="select-ordinary">
+                                <div class="select selected" type-sort="days">By days</div>
+                                <div class="select" type-sort="likes">By likes</div>
+                                <div class="select" type-sort="difficulty">By difficulty</div>
+                            </div>
+                        </div>
+                        <div class="show-tags">
+                            <h4>Taxonomies</h4>
+                            <div id="show-tags-type">
+                                <div class="select selected" hide-class="hide-days">Days</div>
+                                <div class="select" hide-class="hide-likes">Likes</div>
+                                <div class="select" hide-class="hide-difficulty">Difficulty</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <h4>Search</h4>
+                        <input id="search-input" type="text" placeholder="Find out more!">
+                        <div class="subtext-input">You can write the number of the day (18 Day), the question of the day
+                            or title of anime</div>
+                    </div>
+                </div>
+            </div>
+            <div class="other-users">
+                <h2>Other lists from users</h2>
+                <div id="other-users">
+                </div>
+            </div>
+
+            <div class="stats">
+                <h2>Statistics (Number of titles)</h2>
+                <div id="stats-number__graph">
+
+                </div>
+                <div id="stats-number__text">
+
+                </div>
+            </div>
+
+            <!-- <div class="like-btn">
+                <span class="likebtn-wrapper" data-ef_voting="bounce" data-identifier="item_1"
+                    data-dislike_enabled="false" data-icon_l="hrt1" data-icon_l_c="#ffffff" data-i18n_like="Like me"></span>
+                <script>(function (d, e, s) { if (d.getElementById("likebtn_wjs")) return; a = d.createElement(e); m = d.getElementsByTagName(e)[0]; a.async = 1; a.id = "likebtn_wjs"; a.src = s; m.parentNode.insertBefore(a, m) })(document, "script", "//w.likebtn.com/js/w/widget.js");</script>
+            </div> -->
+
+
+            <div id="challenge-items" class="hide-difficulty hide-likes">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+    <footer>
+        Thank you!
+    </footer>
+</body>
+
+</html>
