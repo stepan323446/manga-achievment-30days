@@ -11,6 +11,10 @@ function getDataSteve() {
         medium: 2,
         hard: 3
     }
+    const TypeBook = {
+        lightNovel: 0,
+        manga: 1
+    }
 
     // Создание объекта тайтла
     /////////////////////////////////////////////////////////
